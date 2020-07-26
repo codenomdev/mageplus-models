@@ -1,0 +1,36 @@
+{
+    "name": "codenom/mageplusmodels",
+    "description": "Models Extentions for CMS MagePlus",
+    "homepage": "https://codenom.com/",
+    "license": "MIT",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "Models CodeIgniter4",
+        "Models mageplus"
+    ],
+    "authors": [
+        {
+            "name": "Codenom Dev",
+            "email": "dev@codenom.com",
+            "homepage": "https://codenom.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codenomdev/mageplus-models/issues",
+        "source": "https://github.com/codenomdev/mageplus-models"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeIgniter\\": "system/",
+            "Codenom\\Models\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "codenom/schemas": "^1.0"
+    },
+    "require-dev": {
+        "codeigniter4/codeigniter4": "dev-develop"
+    }
+}
